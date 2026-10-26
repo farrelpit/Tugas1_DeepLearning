@@ -1,0 +1,10 @@
+# Di Google Colab, torch & torchvision sudah terpasang -> baris ini otomatis terpenuhi.
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+tqdm>=4.65
+torchmetrics>=1.3        # FID (FrechetInceptionDistance)
+torch-fidelity>=0.3.0    # backend InceptionV3 untuk FID
